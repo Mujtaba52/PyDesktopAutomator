@@ -13,3 +13,7 @@ Before using PyDesktopAutomator, make sure you have the following Python package
 - [pytest](https://pypi.org/project/pytest/) with [pytest-html](https://pypi.org/project/pytest-html/):
   ```shell
   pip install pytest pytest-html
+
+Then run the following command in the terminal:
+```shell
+pytest main.py --html=report.html  
